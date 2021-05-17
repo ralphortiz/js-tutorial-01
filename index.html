@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>A Simple To-Do List App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hi, Ralph!</h1>
+      <p class="total-number"></p>
+    </header>
+    <div class="modal">
+      <div class="modal-wrapper">
+        <i class="close-btn fas fa-times-circle"></i>
+        <h2>Add a Task</h2>
+        <form>
+          <input type="text" class="todo-input" placeholder="Enter something here" required />
+          <button class="todo-btn">Add</button>
+        </form>
+      </div>
+    </div>
+    <div class="select">
+      <select name="todos" id="" class="filter-todo">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="uncompleted">Uncompleted</option>
+      </select>
+    </div>
+    <div class="todo-container">
+      <div class="todo-list"></div>
+    </div>
+    <button class="add-btn"><i class="fas fa-plus fa-2x"></i></button>
+    <script src="app.js"></script>
+  </body>
+</html>
