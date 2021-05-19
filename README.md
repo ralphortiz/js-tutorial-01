@@ -1,4 +1,4 @@
-### To-Do List Application
+## To-Do List Application
 A simple To-Do list application. I created this simple app to learn how DOM Manipulation of Javascript works.
 
 ![TODO1](https://user-images.githubusercontent.com/42314281/118468504-6b869b00-b737-11eb-92cd-df4ea30d5850.PNG)
